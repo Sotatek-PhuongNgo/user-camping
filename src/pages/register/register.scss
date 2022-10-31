@@ -1,0 +1,72 @@
+.login{
+    height: 100vh;
+    background-color:#3bb872; ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .card{
+        display: flex;
+        width: 110vh;
+        background-color: white;
+        border-radius: 2% 2% 2% 2%;
+        min-height: 65%;
+        overflow: hidden;
+        .left{
+           background: linear-gradient(rgba(39,11,96,0.5),rgba(39,11,96,0.5)), url("https://bucket-chat.s3.ap-southeast-1.amazonaws.com/297971071_5492877197438815_3680358849621337837_n+(2).jpg"), center;
+            flex: 1;
+            background-size:cover;
+            background-repeat: no-repeat;
+            display: flex;
+            padding: 5%;
+            flex-direction: column;
+            gap:7%;
+            color: white;
+            h1{
+                font-size: 370%;
+                line-height: 120%;
+            }
+            p{}
+            span{
+                font-size: 120%;
+            }
+            button{
+                width: 50%;
+                padding: 3%;
+                color:rgb(83, 16, 79);
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+        .right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 5%;
+            padding: 5%;
+            justify-content: center;
+            h1{
+                color: #555;
+            }
+            form{
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 4% 3% 2% 2%;
+                    width: 100%;
+                    font-size:18px;
+                    display:block;
+                    margin-bottom: 10%;
+                }
+                button{
+                    width: 50%;
+                    padding: 3%;
+                    color:white;
+                    background-color:#938eef;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
